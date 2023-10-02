@@ -30,6 +30,7 @@ GLuint _textureId3;
  glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, image->width, image->height, 0, GL_RGB, GL_UNSIGNED_BYTE, image->pixels);
  return textureId;
 }
+//heloooooooooooo
 
 float pitch = 0.0, yaw = 0.0;
 float camX = 0.0, camZ = 0.0, terbang = 25.0;
